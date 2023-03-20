@@ -1,0 +1,27 @@
+.option{
+    background-color: indigo;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+.option:hover{
+    opacity: 1;
+}
+
+#options .option p{
+    margin-bottom: 0;
+}
+
+.correct{
+    background-color: green;
+    font-weight: bold;
+}
+
+.incorrect{
+    background-color: red;
+    opacity: 0.4;
+}
